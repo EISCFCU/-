@@ -43,4 +43,18 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/163803490-85aa8c9e-91ef-4e07-8c36-093c38a77057.png)
 
-7.點選[Create new VPC]與[Create new DB Subnet Group]
+7.點選[Create new VPC]與[Create new DB Subnet Group]
+
+![image](https://user-images.githubusercontent.com/103306835/163803552-e2d51cc8-cf81-4ccd-8bd2-fce73b71c926.png)
+
+8.點選[YES]
+
+![image](https://user-images.githubusercontent.com/103306835/163803587-87e11f82-e3e0-4a95-93a0-276f6390bf13.png)
+
+9.選擇[Password authentication]
+
+![image](https://user-images.githubusercontent.com/103306835/163803616-4bb8530c-d9bf-49a0-97e9-d869ce4d88ca.png)
+
+10.點選[Create database]
+
+![image](https://user-images.githubusercontent.com/103306835/163803655-d7b37a11-acde-42d2-b2eb-bf147814c053.png)
