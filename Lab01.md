@@ -58,3 +58,28 @@
 10.點選[Create database]
 
 ![image](https://user-images.githubusercontent.com/103306835/163803655-d7b37a11-acde-42d2-b2eb-bf147814c053.png)
+
+11.等待database status為Available
+
+![image](https://user-images.githubusercontent.com/103306835/163805846-ff2a4e5a-22b9-4274-bf4d-b36cc501bba0.png)
+
+12.點選[database-1]
+
+![image](https://user-images.githubusercontent.com/103306835/163805884-d51d092d-bef0-4069-a411-e24d53ed1ef5.png)
+
+13.點選Type為[EC2 Security Group-Inbound]
+更改Security group 輸入規則Port，預設RDS只有EC2可以連進來
+![image](https://user-images.githubusercontent.com/103306835/163805949-dae8beaa-858c-40a5-bbf2-462373723b19.png)
+
+14.點選輸入規則
+
+![image](https://user-images.githubusercontent.com/103306835/163805981-32c3c012-a487-4851-ac25-be143120fecc.png)
+
+
+15.複製Endpoint(資料庫連線網址)
+
+![image](https://user-images.githubusercontent.com/103306835/163806013-ea73e308-5de7-49c3-96c7-73f7b0df2138.png)
+
+
+
+
