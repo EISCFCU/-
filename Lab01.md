@@ -81,7 +81,7 @@
 ![image](https://user-images.githubusercontent.com/103306835/163806013-ea73e308-5de7-49c3-96c7-73f7b0df2138.png)
 
 16.下載MYSQL使用介面
-連結：https://dev.mysql.com/downloads/file/?id=497505
+連結：https://dev.mysql.com/downloads/workbench/
 ![image](https://user-images.githubusercontent.com/103306835/163809077-0a88f99b-07fc-4dbf-aca0-a851132cee50.png)
 
 17.點選[Next]
