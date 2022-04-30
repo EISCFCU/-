@@ -1,7 +1,7 @@
 #  Lab01-建立雲端上的資料庫
 
 建立雲端資料庫(MariaDB)
-
+操作影片連結：https://youtu.be/Vq-TCPgI3ko
 
 # 情境
 
