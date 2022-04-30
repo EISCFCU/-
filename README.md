@@ -1,9 +1,11 @@
-# 企業資料庫實作
+# 企業資料庫
  
  使用環境：AWS Academy-Learner Lab Associate
  
  
  0430上課內容
+
+ 【實作】
  
  1.建立雲端上的資料庫(RDS)：
  
