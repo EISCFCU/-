@@ -16,7 +16,7 @@
 
 # 實施步驟
 
-![image](https://user-images.githubusercontent.com/103306835/163771846-b8c15e04-76bd-497b-9960-cafeae8400c9.png)
+![image](https://user-images.githubusercontent.com/103306835/166086659-f3d7e19e-fbb6-4c42-be26-9d155be0fec4.png)
 
 登入AWS Management Console
 ![image](https://user-images.githubusercontent.com/103306835/163772880-3b1afe3d-b8e8-4e30-993e-8b4a741a50dc.png)
