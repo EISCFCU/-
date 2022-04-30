@@ -11,10 +11,10 @@
  
  教材連結：https://github.com/EISCFCU/database/blob/main/Lab01.md
  
- 影片連結：https://youtu.be/Vq-TCPgI3ko
+ 影片連結：https://youtu.be/jWH1gn1vaUU
  
  2.股市爬蟲(S3+Lambda)：
  
  教材連結：https://github.com/EISCFCU/database/blob/main/Lab02.md
  
- 影片連結：https://youtu.be/jWH1gn1vaUU
+ 影片連結：https://youtu.be/Vq-TCPgI3ko
