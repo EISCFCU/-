@@ -142,3 +142,46 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/166086268-82a09c37-906d-40ae-be8a-06cc4a017b7f.png)
 
+
+# 步驟5：建立第二個Lambda
+
+1.點選[Create Function]
+
+![image](https://user-images.githubusercontent.com/103306835/167234671-ad021e9f-38fc-408f-95c4-4f5f9d03dc31.png)
+
+
+2.輸入Function name
+
+輸入Function name![image](https://user-images.githubusercontent.com/103306835/167234682-fe18449c-28e0-4197-bafc-9cf39dbd1771.png)
+
+3.選擇Runtime
+
+![image](https://user-images.githubusercontent.com/103306835/167234692-10500e7d-8a59-47b7-a3b7-f7ba45d8d943.png)
+
+4.選擇既有的角色(Lab Role)
+
+![image](https://user-images.githubusercontent.com/103306835/167234705-dd99886f-d5b1-48f2-9a5f-f9b28327dc83.png)
+
+5.點選[+Add trigger]
+
+![image](https://user-images.githubusercontent.com/103306835/167234717-7e50da2f-8b43-4039-953f-b8c61e03e869.png)
+
+6.選擇[S3]
+
+![image](https://user-images.githubusercontent.com/103306835/167234727-394f2727-c0e7-4877-88ac-6b644e502bab.png)
+
+7.選擇步驟1新建的S3
+
+![image](https://user-images.githubusercontent.com/103306835/167234738-2aaa87e8-b8cd-40c7-82ff-6e965a9923d9.png)
+
+8.點選[Add]
+
+![image](https://user-images.githubusercontent.com/103306835/167234744-919860e6-0534-4f48-bce0-270d243f6ebf.png)
+
+9.完成Trigger設定
+
+![image](https://user-images.githubusercontent.com/103306835/167234751-fc26fb78-9af9-4f78-a9d0-a60dde050a3a.png)
+
+# 步驟7：新增Dynamodb
+
+
