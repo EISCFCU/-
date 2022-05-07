@@ -12,11 +12,11 @@
 
 # 實施架構
 
-![image](https://user-images.githubusercontent.com/103306835/163771871-e8de0142-a42a-4c9b-bff4-4b8b64138023.png)
+![image](https://user-images.githubusercontent.com/103306835/167241862-fe963c18-875f-4531-8c20-44d0f7b1fa0a.png)
 
 # 實施步驟
 
-![image](https://user-images.githubusercontent.com/103306835/166086659-f3d7e19e-fbb6-4c42-be26-9d155be0fec4.png)
+![image](https://user-images.githubusercontent.com/103306835/167241877-c6667343-e88d-4497-acb2-19e128a8b201.png)
 
 登入AWS Management Console
 ![image](https://user-images.githubusercontent.com/103306835/163772880-3b1afe3d-b8e8-4e30-993e-8b4a741a50dc.png)
@@ -362,12 +362,4 @@
 8.發現DynamoDB的資料已經被新增
 
 ![image](https://user-images.githubusercontent.com/103306835/167241450-284ae6cf-edbc-4a73-adf5-dd1dfcd3ba07.png)
-
-# 步驟10：設定Cloudwatch定時
-
-1.進入Cloudwatch主頁
-
-
-2.點選[Rules]
-
 
