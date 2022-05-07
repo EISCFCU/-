@@ -226,6 +226,47 @@
 
 11.貼上測試語法
 
+'''
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "1970-01-01T00:00:00.000Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "EXAMPLE"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "127.0.0.1"
+      },
+      "responseElements": {
+        "x-amz-request-id": "EXAMPLE123456789",
+        "x-amz-id-2": "EXAMPLE123/5678abcdefghijklambdaisawesome/mnopqrstuvwxyzABCDEFGH"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "testConfigRule",
+        "bucket": {
+          "name": "my-s3-bucket",
+          "ownerIdentity": {
+            "principalId": "EXAMPLE"
+          },
+          "arn": "arn:aws:s3:::example-bucket"
+        },
+        "object": {
+          "key": "HappyFace.jpg",
+          "size": 1024,
+          "eTag": "0123456789abcdef0123456789abcdef",
+          "sequencer": "0A1B2C3D4E5F678901"
+        }
+      }
+    }
+  ]
+}
+
+'''
 ![image](https://user-images.githubusercontent.com/103306835/167237168-7cba1a16-1436-476b-b8cc-a792fbcc9c85.png)
 
 
@@ -236,3 +277,83 @@
 13.回到S3查看Bucketname
 
 ![image](https://user-images.githubusercontent.com/103306835/167237186-3dca2022-5dc1-44d9-900a-8dc97d13c41d.png)
+
+14.以及object的名稱 進行複製
+
+![image](https://user-images.githubusercontent.com/103306835/167240544-fa468c23-8b2b-42aa-b4c7-079ed95c1661.png)
+
+15.進行S3 Bucketname 與 Key的更換
+
+![image](https://user-images.githubusercontent.com/103306835/167240556-f0e0e76b-3ddf-4d03-a0fc-9801d69d5f9b.png)
+
+16.點選[Create]
+
+![image](https://user-images.githubusercontent.com/103306835/167240568-5fe04d7c-bf7e-452e-a8ab-c187d2a2f7f7.png)
+
+17.剛更新的語法沒有部署 點選[Deploy]
+
+![image](https://user-images.githubusercontent.com/103306835/167240601-2eefe9b8-cd3b-400b-9a80-dcbb7c2357d2.png)
+
+18.完成部署
+
+![image](https://user-images.githubusercontent.com/103306835/167240611-505be458-a4bb-4329-a4a0-634f5dc804fe.png)
+
+19.點擊[Test]
+
+![image](https://user-images.githubusercontent.com/103306835/167240676-3bcac4eb-1f3c-4965-a7cf-dac74637d6e3.png)
+
+20.測試結果呈現
+
+![image](https://user-images.githubusercontent.com/103306835/167240696-fe161034-c58c-45bf-bce4-f022b3d40411.png)
+
+# 步驟8：查看DynamoDB是否產生資料
+
+1.進入Dyamodb主頁
+
+![image](https://user-images.githubusercontent.com/103306835/167240729-3831c177-21a9-456b-8447-2c35c5a084eb.png)
+
+2.點選[Tables]
+
+![image](https://user-images.githubusercontent.com/103306835/167240741-8f9841c2-c7e2-4547-aac4-28189225cc8a.png)
+
+3.點選步驟7新增的資料表
+
+![image](https://user-images.githubusercontent.com/103306835/167240754-18f2bd53-99da-44f4-8e3a-ec33b62a26ea.png)
+
+4.點選[Item]
+
+![image](https://user-images.githubusercontent.com/103306835/167240769-6e7fed20-0e41-4454-ae96-328f3c904ac4.png)
+
+5.結果呈現
+
+![image](https://user-images.githubusercontent.com/103306835/167240774-fa3d892b-f134-4662-83da-91b3dcff2224.png)
+
+# 步驟9：正式進行爬蟲、解析資料並存到DynamoDB
+
+1.清除資料表
+
+
+2.設定串流
+
+![image](https://user-images.githubusercontent.com/103306835/167240822-00bd2b45-a56a-43c2-8320-9ad38be68f25.png)
+
+3.開通串流
+
+![image](https://user-images.githubusercontent.com/103306835/167240825-a057eef5-3bc7-4448-8c91-78c9020d72af.png)
+
+4.完成資料表新增
+
+![image](https://user-images.githubusercontent.com/103306835/167240832-0bec5c8d-efa7-43ee-8f54-714a762fdcc7.png)
+
+5.回到第一個lambda
+
+
+6.點選[Test]
+
+
+
+7.點擊更新鍵
+
+
+8.
+
