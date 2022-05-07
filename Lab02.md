@@ -188,43 +188,39 @@
 
 ![image](https://user-images.githubusercontent.com/103306835/167237065-9515cac6-cea9-4ccf-b5d6-ee3389553a8f.png)
 
-2.點選[Upload from]
+2.點選[Upload from S3 Location]
 
-![image](https://user-images.githubusercontent.com/103306835/167237076-7ae7909f-b891-4304-9f70-107f51834119.png)
+輸入：https://stock-20220429.s3.amazonaws.com/02-stock-parse-data-dynamodb.zip
 
-3.點選[Upload] 選取Lambda2.zip
 
-![image](https://user-images.githubusercontent.com/103306835/167237090-48623757-c6f4-4bd0-ae65-908ddaa9c5d4.png)
+3.點選[Save]
 
-4.點選[Save]
 
-![image](https://user-images.githubusercontent.com/103306835/167237101-f437abd7-a731-452a-913e-46bdf50fd8d6.png)
-
-5.完成上傳
+4.完成上傳
 
 ![image](https://user-images.githubusercontent.com/103306835/167237110-e0091736-7528-4098-b342-387113616690.png)
 
-6.打開lambda_function.py
+5.打開lambda_function.py
 
 ![image](https://user-images.githubusercontent.com/103306835/167237116-1e963ffc-611d-4763-a627-bbeac17d4fa0.png)
 
-7.更改Table name與Region
+6.更改Table name與Region
 
 ![image](https://user-images.githubusercontent.com/103306835/167237121-b1818418-2ee9-493a-bc0a-60348438ac81.png)
 
-8.複製主控台測試語法
+7.複製主控台測試語法
 
 ![image](https://user-images.githubusercontent.com/103306835/167237134-752c6c99-87f1-4264-9a19-cd1fe3c93048.png)
 
-9.點選[Test]
+8.點選[Test]
 
 ![image](https://user-images.githubusercontent.com/103306835/167237149-a63bfc9b-6adb-46da-ab17-be9cce8832ec.png)
 
-10.輸入Event name
+9.輸入Event name
 
 ![image](https://user-images.githubusercontent.com/103306835/167237160-b1797922-2342-453c-8ddb-43946058db17.png)
 
-11.貼上測試語法
+10.貼上測試語法
 
 '''
 {
@@ -270,39 +266,39 @@
 ![image](https://user-images.githubusercontent.com/103306835/167237168-7cba1a16-1436-476b-b8cc-a792fbcc9c85.png)
 
 
-12.更改S3 bucketname 跟key
+11.更改S3 bucketname 跟key
 
 ![image](https://user-images.githubusercontent.com/103306835/167237179-4e63d2e3-5418-4e8c-b852-283bc8c6d5b0.png)
 
-13.回到S3查看Bucketname
+12.回到S3查看Bucketname
 
 ![image](https://user-images.githubusercontent.com/103306835/167237186-3dca2022-5dc1-44d9-900a-8dc97d13c41d.png)
 
-14.以及object的名稱 進行複製
+13.以及object的名稱 進行複製
 
 ![image](https://user-images.githubusercontent.com/103306835/167240544-fa468c23-8b2b-42aa-b4c7-079ed95c1661.png)
 
-15.進行S3 Bucketname 與 Key的更換
+14.進行S3 Bucketname 與 Key的更換
 
 ![image](https://user-images.githubusercontent.com/103306835/167240556-f0e0e76b-3ddf-4d03-a0fc-9801d69d5f9b.png)
 
-16.點選[Create]
+15.點選[Create]
 
 ![image](https://user-images.githubusercontent.com/103306835/167240568-5fe04d7c-bf7e-452e-a8ab-c187d2a2f7f7.png)
 
-17.剛更新的語法沒有部署 點選[Deploy]
+16.剛更新的語法沒有部署 點選[Deploy]
 
 ![image](https://user-images.githubusercontent.com/103306835/167240601-2eefe9b8-cd3b-400b-9a80-dcbb7c2357d2.png)
 
-18.完成部署
+17.完成部署
 
 ![image](https://user-images.githubusercontent.com/103306835/167240611-505be458-a4bb-4329-a4a0-634f5dc804fe.png)
 
-19.點擊[Test]
+18.點擊[Test]
 
 ![image](https://user-images.githubusercontent.com/103306835/167240676-3bcac4eb-1f3c-4965-a7cf-dac74637d6e3.png)
 
-20.測試結果呈現
+19.測試結果呈現
 
 ![image](https://user-images.githubusercontent.com/103306835/167240696-fe161034-c58c-45bf-bce4-f022b3d40411.png)
 
