@@ -347,13 +347,27 @@
 
 5.回到第一個lambda
 
+![image](https://user-images.githubusercontent.com/103306835/167241417-899a8533-9b9b-4f4f-83c2-c95efce67a68.png)
 
 6.點選[Test]
 
+![image](https://user-images.githubusercontent.com/103306835/167241433-d3efe497-e668-4762-a2ff-87cfd2464695.png)
 
 
 7.點擊更新鍵
 
+![image](https://user-images.githubusercontent.com/103306835/167241437-658a4a6e-cbcd-4253-9705-d973f90ea238.png)
 
-8.
+
+8.發現DynamoDB的資料已經被新增
+
+![image](https://user-images.githubusercontent.com/103306835/167241450-284ae6cf-edbc-4a73-adf5-dd1dfcd3ba07.png)
+
+# 步驟10：設定Cloudwatch定時
+
+1.進入Cloudwatch主頁
+
+
+2.點選[Rules]
+
 
