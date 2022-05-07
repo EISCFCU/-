@@ -184,4 +184,55 @@
 
 # 步驟7：新增Dynamodb
 
+1.回到第二個Lambda Code source
 
+![image](https://user-images.githubusercontent.com/103306835/167237065-9515cac6-cea9-4ccf-b5d6-ee3389553a8f.png)
+
+2.點選[Upload from]
+
+![image](https://user-images.githubusercontent.com/103306835/167237076-7ae7909f-b891-4304-9f70-107f51834119.png)
+
+3.點選[Upload] 選取Lambda2.zip
+
+![image](https://user-images.githubusercontent.com/103306835/167237090-48623757-c6f4-4bd0-ae65-908ddaa9c5d4.png)
+
+4.點選[Save]
+
+![image](https://user-images.githubusercontent.com/103306835/167237101-f437abd7-a731-452a-913e-46bdf50fd8d6.png)
+
+5.完成上傳
+
+![image](https://user-images.githubusercontent.com/103306835/167237110-e0091736-7528-4098-b342-387113616690.png)
+
+6.打開lambda_function.py
+
+![image](https://user-images.githubusercontent.com/103306835/167237116-1e963ffc-611d-4763-a627-bbeac17d4fa0.png)
+
+7.更改Table name與Region
+
+![image](https://user-images.githubusercontent.com/103306835/167237121-b1818418-2ee9-493a-bc0a-60348438ac81.png)
+
+8.複製主控台測試語法
+
+![image](https://user-images.githubusercontent.com/103306835/167237134-752c6c99-87f1-4264-9a19-cd1fe3c93048.png)
+
+9.點選[Test]
+
+![image](https://user-images.githubusercontent.com/103306835/167237149-a63bfc9b-6adb-46da-ab17-be9cce8832ec.png)
+
+10.輸入Event name
+
+![image](https://user-images.githubusercontent.com/103306835/167237160-b1797922-2342-453c-8ddb-43946058db17.png)
+
+11.貼上測試語法
+
+![image](https://user-images.githubusercontent.com/103306835/167237168-7cba1a16-1436-476b-b8cc-a792fbcc9c85.png)
+
+
+12.更改S3 bucketname 跟key
+
+![image](https://user-images.githubusercontent.com/103306835/167237179-4e63d2e3-5418-4e8c-b852-283bc8c6d5b0.png)
+
+13.回到S3查看Bucketname
+
+![image](https://user-images.githubusercontent.com/103306835/167237186-3dca2022-5dc1-44d9-900a-8dc97d13c41d.png)
