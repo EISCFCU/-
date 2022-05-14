@@ -71,6 +71,7 @@
 ![image](https://user-images.githubusercontent.com/103306835/166851328-862ab3ef-638a-4b23-93be-ba9e70de07f1.png)
 
 ```
+
 #!/bin/bash
 # Install Apache Web Server and PHP
 yum install httpd mysql -y
@@ -84,6 +85,7 @@ unzip aws -d /var/www/html
 # Turn on web server and ensure running on reboot
 service httpd start
 chkconfig httpd on
+
 ```
 10.點選[Launch Instance]
 
