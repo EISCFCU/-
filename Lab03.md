@@ -216,7 +216,7 @@ Confirm password：lab-password
 
 3.回到EC2->Instances->並開啟[IPv4 address]
 
-![image](https://user-images.githubusercontent.com/105908040/169472393-2a021157-87db-42c3-be9c-4665822f0c02.png)
+![image](https://user-images.githubusercontent.com/105908040/169473815-9230760a-83b6-4bae-ba4d-1425014a1785.png)
 
 4.開啟網頁->並點選[Settings]
 
