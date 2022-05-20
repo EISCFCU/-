@@ -214,7 +214,7 @@ Confirm password：lab-password
 
 ![image](https://user-images.githubusercontent.com/103306835/166852280-cd177cda-0ecf-4601-801e-85cee96fb6bd.png)
 
-3.回到EC2->Instances->並開啟[IPv4 address]
+3.開啟[IPv4 address]
 
 ![image](https://user-images.githubusercontent.com/105908040/169473815-9230760a-83b6-4bae-ba4d-1425014a1785.png)
 
