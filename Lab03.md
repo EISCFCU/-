@@ -214,15 +214,19 @@ Confirm password：lab-password
 
 ![image](https://user-images.githubusercontent.com/103306835/166852280-cd177cda-0ecf-4601-801e-85cee96fb6bd.png)
 
-3.開啟網頁->並點選[Settings]
+3.回到EC2->Instances->並開啟[IPv4 address]
+
+![image](https://user-images.githubusercontent.com/105908040/169472393-2a021157-87db-42c3-be9c-4665822f0c02.png)
+
+4.開啟網頁->並點選[Settings]
 
 ![image](https://user-images.githubusercontent.com/103306835/166852303-f5db5fee-8ff3-4be0-8990-34f3efd3f388.png)
 
-4.輸入資料庫連線資料 並點選[Save]
+5.輸入資料庫連線資料 並點選[Save]
 
 ![image](https://user-images.githubusercontent.com/103306835/166852321-1d460352-ecec-42af-ba94-5f314bc19e5d.png)
 
-5.成功連線到資料庫
+6.成功連線到資料庫
 
 ![image](https://user-images.githubusercontent.com/103306835/166852349-bb29a122-b085-4adc-92aa-52c141e1a8b7.png)
 
